@@ -163,7 +163,7 @@ header .intro-text .sde {
 
     .navbar-fixed-top .navbar-brand {
         font-size: 2.4em; /* originally 2em */
-        
+
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
@@ -194,6 +194,10 @@ header .intro-text .sde {
     /*text-transform: uppercase;*/
     font-family: Lobster,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 500; /*originally 700 for Monts*/
+}
+
+.navbar-header {
+    text-align: center;
 }
 
 .navbar-right {
