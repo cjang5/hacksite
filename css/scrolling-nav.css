@@ -96,6 +96,10 @@ of those sections to manage the look and feel of the site. */
     opacity: 100;   
 }
 
+.modals {
+    padding-top: 75px;   
+}
+
 .services-section {
     height: 100%;
     padding-top: 75px;
@@ -108,4 +112,11 @@ of those sections to manage the look and feel of the site. */
     padding-top: 75px;
     text-align: center;
     background: #eee;
+}
+
+.footer-section {
+    height: 35%;
+    padding-top: 50px;
+    text-align: center;
+    background: #fff;
 }
