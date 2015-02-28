@@ -13,6 +13,15 @@ $(window).scroll(function() {
     if ($(".navbar").offset().top > 500) {
         $(".about_text").fadeIn(1000).addClass("appear");
     }
+    
+    if ($(".navbar").offset().top > 550) {
+        $(".modals").fadeIn(1000).addClass("appear");
+    }
+    
+    if ($(".navbar").offset().top > 1250) {
+        $(".video").fadeIn(1000).addClass("appear");
+    }
+    
 });
 
 /*
