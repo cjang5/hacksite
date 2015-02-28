@@ -76,21 +76,36 @@ of those sections to manage the look and feel of the site. */
 
 .about-section {
     height: 100%;
-    padding-top: 100px;
+    padding-top: 75px;
     text-align: center;
     background: #eee;
 }
 
+.about_text {
+    opacity: 0;
+    top: 300;
+    -webkit-transition: all 1.5s ease-in-out;
+    -moz-transition: all 1.5s ease-in-out;
+    -o-transition: all 1.5s ease-in-out;
+    transition: all 1.5s ease-in-out;
+    position: relative;
+}
+
+.about_text.appear {
+    top: 400;
+    opacity: 100;   
+}
+
 .services-section {
     height: 100%;
-    padding-top: 150px;
+    padding-top: 75px;
     text-align: center;
     background: #fff;
 }
 
 .contact-section {
     height: 100%;
-    padding-top: 150px;
+    padding-top: 75px;
     text-align: center;
     background: #eee;
 }
