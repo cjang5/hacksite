@@ -1,0 +1,13 @@
+---
+layout: default
+modal-id: 2
+title: Not Another Typing Game
+date: 2014-11-27
+img: Not-Another-Typing-Game.png
+alt: image-alt
+project-date: February 2014
+category: Original Game
+link: NotAnotherTypingGame
+description: My second major game idea, Not Another Typing Game was a really fun, ambitious project I had. The player types words on the screen to complete actions. Kinda like the terminal! Sounds bland, but the developments I had for it in my head and on docs was really awesome (in my biased opinion). I never got around to completing it, but it was a valuable experience nontheless. I got intimate with the SDL2.0 library in C++ and learned a lot about sprite animation and game loops. Maybe I will revisit this project one day, as it is a really cool idea and I still look at the design docs sometimes.
+
+---
