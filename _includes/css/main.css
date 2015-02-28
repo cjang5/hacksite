@@ -194,7 +194,9 @@ header .intro-text .sde {
     /*text-transform: uppercase;*/
     font-family: Lobster,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 500; /*originally 700 for Monts*/
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
 }
 
 .navbar-header {
