@@ -213,6 +213,7 @@ header .intro-text .sde {
 
 .navbar .navbar-nav {
     letter-spacing: 1px;
+    text-align: center;
 }
 
 .navbar-default .navbar-brand:hover {
