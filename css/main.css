@@ -1,8 +1,12 @@
 ::selection {
-    background: #d46543;
+  background: #d46543;
 }
 
-.navbar-header {
-	font-family: "Arial";
-	color: #000000;
+.brand {
+  float: none;
+  margin: auto;
+}
+
+.container-fluid {
+  text-align: center;
 }
