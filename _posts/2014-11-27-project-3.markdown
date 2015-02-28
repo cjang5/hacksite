@@ -1,0 +1,13 @@
+---
+layout: default
+modal-id: 3
+title: Mosaic-O-Matic
+date: 2014-11-27
+img: Mosaic-O-Matic.png
+alt: image-alt
+project-date: November 2014
+category: Miscellaneous Programs
+link: mosaic-o-matic
+description: One of the coolest things I've made so far, this program will take in a source image and then turn it into a mosaic given a pool of images to choose from! It uses a kd-tree data structure to decide which images to use to make up the new mosaic, and it does this relatively efficiently using a Nearest Neighbor Search and Quick-Select algorithm. I made this for school, but I thought I'd show it off as it is something I'm pretty proud of. 
+
+---
