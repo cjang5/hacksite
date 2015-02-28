@@ -163,7 +163,7 @@ header .intro-text .sde {
 
     .navbar-fixed-top .navbar-brand {
         font-size: 2.4em; /* originally 2em */
-
+        float: none;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
