@@ -94,7 +94,7 @@ of those sections to manage the look and feel of the site. */
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: url('/img/bg.png');
+    background-image: url('/img/bg.png');
 }
 
 .about-section {
@@ -221,5 +221,5 @@ of those sections to manage the look and feel of the site. */
     height: 35%;
     padding-top: 75px;
     text-align: center !important;
-    background: url('/img/footer-bg.png');
+    background-image: url('/img/footer-bg.png');
 }
