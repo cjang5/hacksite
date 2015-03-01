@@ -14,22 +14,38 @@ html {
     height: 100%;
 }
 
-div.main_image {
+.main_gif {
     opacity: 0;
-    top: -80px;
+    padding-top: 0px;
+    top: -50px;
     -webkit-transition: all 1.5s ease-in-out;
     -moz-transition: all 1.5s ease-in-out;
     -o-transition: all 1.5s ease-in-out;
     transition: all 1.5s ease-in-out;
-        position: relative;
+    position: relative;
 }
 
-div.main_image.appear {
+.main_gif.appear {
     opacity: 100;
-    top: 10px;
-    
-    padding-left: -20px;
 }
+
+/*
+div.main_image.scroll-down {
+    -webkit-transition: all 1.5s ease-in-out;
+    -moz-transition: all 1.5s ease-in-out;
+    -o-transition: all 1.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    position: relative;
+    top: 0px;
+}
+
+div.main_image.scroll-up {
+    -webkit-transition: all 1.5s ease-in-out;
+    -moz-transition: all 1.5s ease-in-out;
+    -o-transition: all 1.5s ease-in-out;
+    transition: all 1.5s ease-in-out;
+    top: -50px;
+} */
 
 .navbar a {
     display: inline;

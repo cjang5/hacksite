@@ -1,10 +1,10 @@
 $(document).ready(function () {
-    $('.main_image').fadeIn(1000).addClass('appear');
+    $('.main_gif').fadeIn(1000).addClass('appear');
 });
 
 //jQuery to collapse the navbar on scroll
 $(window).scroll(function() {
-    if ($(".navbar").offset().top > 100) {
+    if ($(".navbar").offset().top > 50) {
         $(".navbar-fixed-top").addClass("top-nav-collapse");
     } else {
         $(".navbar-fixed-top").removeClass("top-nav-collapse");
