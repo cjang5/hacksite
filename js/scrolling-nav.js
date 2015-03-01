@@ -12,7 +12,7 @@ $(window).scroll(function() {
         $(".main_gif").removeClass("scroll-up");
     }
     
-    if ($(".navbar").offset().top > 500) {
+    if ($(".navbar").offset().top > 350) {
         $(".about_text").fadeIn(1000).addClass("appear");
     }
     
