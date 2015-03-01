@@ -99,14 +99,14 @@ of those sections to manage the look and feel of the site. */
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: url('http://i.imgur.com/qEF852s.png');
+    background: url('http://i.imgur.com/WsGKelM.png');
 }
 
 .about-section {
     height: 100%;
     padding-top: 30px;
     text-align: center;
-    background: #eee;
+    background: #fff;
 }
 
 .about_text h1 {
@@ -157,7 +157,7 @@ of those sections to manage the look and feel of the site. */
     padding-top: 15px;
     padding-bottom: 100px;
     text-align: center;
-    background: #fff;
+    background: #eee;
     font-family: 'Elkwood', sans-serif;
     color: #ff4646;
 }
@@ -193,7 +193,7 @@ of those sections to manage the look and feel of the site. */
     padding-top: 15px;
     padding-bottom: 100px;
     text-align: center;
-    background: #eee;
+    background: #fff;
     font-family: 'Elkwood', sans-serif;
     color: #ff4646;
 }
