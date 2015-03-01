@@ -94,7 +94,7 @@ of those sections to manage the look and feel of the site. */
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #fff;
+    background: url('/img/bg.png');
 }
 
 .about-section {
@@ -194,7 +194,7 @@ of those sections to manage the look and feel of the site. */
 }
 
 .team-modals {
-    padding-top: 0px;
+    padding-top: 5px;
     -webkit-transition: all 1.5s ease-in-out;
     -moz-transition: all 1.5s ease-in-out;
     -o-transition: all 1.5s ease-in-out;
@@ -213,13 +213,13 @@ of those sections to manage the look and feel of the site. */
 }
 
 .team-modals.appear {
-    padding-top: 25px;
+    padding-top: 15px;
     opacity: 100;   
 }
 
 .footer-section {
     height: 35%;
-    padding-top: 50px;
-    text-align: center;
-    background: #fff;
+    padding-top: 75px;
+    text-align: center !important;
+    background: url('/img/footer-bg.png');
 }
