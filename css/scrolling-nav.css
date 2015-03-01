@@ -174,9 +174,8 @@ of those sections to manage the look and feel of the site. */
     opacity: 100;
 }
 
-.video a:hover {
-    color: #ffffff;
-    width: 80% !important;
+#youtube:hover img {
+    left: 50px;
 }
 
 .team-section h1 {
