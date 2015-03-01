@@ -38,9 +38,14 @@ div.main_gif.scroll-up {
     top: -100px;
 } 
 
+.navbar-default {
+    background-color: #373737;
+}
+
 .navbar a {
     display: inline;
-    color: #ff4646 !important;
+    color: #fff !important;
+    <!--color: #ff4646 !important;-->
     padding-right: 0px;
 }
 
@@ -94,7 +99,7 @@ of those sections to manage the look and feel of the site. */
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: url('http://i.imgur.com/mjtvtDw.jpg');
+    background: url('http://i.imgur.com/qEF852s.png');
 }
 
 .about-section {
