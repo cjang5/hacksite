@@ -31,6 +31,20 @@ div.main_image.appear {
     padding-left: -20px;
 }
 
+.navbar a {
+    display: inline;
+    color: #ff4646 !important;
+    padding-right: 0px;
+}
+
+.navbar p {
+    font-size: 150%;
+    color: #ff4646 !important;
+    padding-left: 0px;
+    font-family: 'Elkwood', sans-serif;
+    display: inline;
+}
+
 .navbar-inner {
     text-align: center;
 }
@@ -45,6 +59,8 @@ div.main_image.appear {
 .navbar-brand {
     position: relative;
     float: none;
+    font-family: 'Elkwood', sans-serif;
+    font-size: 250%;
 }
 
 @media(min-width:767px) {
@@ -76,28 +92,36 @@ of those sections to manage the look and feel of the site. */
 
 .about-section {
     height: 100%;
-    padding-top: 75px;
+    padding-top: 30px;
     text-align: center;
     background: #eee;
 }
 
+.about_text h1 {
+    font-size: 6.5em !important;   
+}
+
 .about_text {
     opacity: 0;
-    top: 300;
+    top: 400;
+    padding-bottom: 0px;
     -webkit-transition: all 1.5s ease-in-out;
     -moz-transition: all 1.5s ease-in-out;
     -o-transition: all 1.5s ease-in-out;
     transition: all 1.5s ease-in-out;
     position: relative;
+    font-family: 'Elkwood', sans-serif;
+    color: #ff4646;
 }
 
 .about_text.appear {
-    top: 400;
+    top: 300;
     opacity: 100;   
 }
 
 .about-modals {
     padding-top: 0px;
+    padding-bottom: 50px;
     -webkit-transition: all 1.5s ease-in-out;
     -moz-transition: all 1.5s ease-in-out;
     -o-transition: all 1.5s ease-in-out;
@@ -107,22 +131,29 @@ of those sections to manage the look and feel of the site. */
 }
 
 .about-modals.appear {
-    padding-top: 75px;
+    padding-top: 25px;
     opacity: 100;
+}
+
+.demo-section h1 {
+    font-size: 6.5em !important;
+    padding-bottom: 30px;
 }
 
 .demo-section {
     height: 100%;
-    padding-top: 75px;
+    padding-top: 15px;
     padding-bottom: 100px;
     text-align: center;
     background: #fff;
+    font-family: 'Elkwood', sans-serif;
+    color: #ff4646;
 }
 
 .video {
-    padding-top: 100px;
+    padding-top: 125px;
     padding-bottom: 100px;
-    left: 100px;
+    left: 60px;
     -webkit-transition: all 1.5s ease-in-out;
     -moz-transition: all 1.5s ease-in-out;
     -o-transition: all 1.5s ease-in-out;
@@ -136,12 +167,19 @@ of those sections to manage the look and feel of the site. */
     opacity: 100;
 }
 
+.team-section h1 {
+    font-size: 6.5em !important;
+    padding-bottom: 30px;
+}
+
 .team-section {
     height: 100%;
-    padding-top: 75px;
+    padding-top: 15px;
     padding-bottom: 100px;
     text-align: center;
     background: #eee;
+    font-family: 'Elkwood', sans-serif;
+    color: #ff4646;
 }
 
 .team-modals {
@@ -154,8 +192,16 @@ of those sections to manage the look and feel of the site. */
     opacity: 0;
 }
     
+.team-modals h4 {
+    font-size: 200% !important;
+}
+
+.team-modals h5 {
+    font-size: 150% !important;
+}
+
 .team-modals.appear {
-    padding-top: 75px;
+    padding-top: 25px;
     opacity: 100;   
 }
 
