@@ -9,6 +9,11 @@
     src: url('/fonts/elkwood.ttf');
 }
 
+@font-face {
+    font-family: 'neoteric';
+    src: url('/fonts/Neoteric-BOLD.ttf');
+}
+
 body {
     width: 100%;
     height: 100%;
@@ -58,7 +63,7 @@ div.main_gif.scroll-up {
     font-size: 150%;
     color: #ff4646 !important;
     padding-left: 0px;
-    font-family: 'elkwood', sans-serif;
+    font-family: 'Elkwood', sans-serif;
     display: inline;
 }
 
@@ -76,7 +81,7 @@ div.main_gif.scroll-up {
 .navbar-brand {
     position: relative;
     float: none;
-    font-family: 'Elkwood', sans-serif;
+    font-family: 'neoteric', sans-serif;
     font-size: 250%;
 }
 
