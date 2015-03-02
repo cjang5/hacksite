@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: 'elkwood';
-    src: url(/fonts/elkwood.ttf);
+    src: url('/fonts/elkwood.ttf');
 }
 
 body {
